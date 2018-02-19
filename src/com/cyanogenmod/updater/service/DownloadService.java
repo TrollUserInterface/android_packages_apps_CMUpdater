@@ -64,14 +64,11 @@ public class DownloadService extends IntentService
     }
 
     private long enqueueDownload(String downloadUrl) {
-        String referrer = downloadUrl;
-        downloadUrl += "&task=get";
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(downloadUrl));
         String userAgent = Utils.getUserAgentString(this);
         if (userAgent != null) {
             request.addRequestHeader("User-Agent", userAgent);
         }
-        request.addRequestHeader("Referer", referrer);
         request.setTitle(getString(R.string.app_name));
         request.setAllowedOverRoaming(false);
         request.setVisibleInDownloadsUi(false);
