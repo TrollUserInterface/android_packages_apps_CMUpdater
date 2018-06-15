@@ -53,6 +53,8 @@
   <string name="not_download_install_notice">Pembaruan <xliff:g id="filename">%s</xliff:g> sudah berhasil diunduh. Ketika mengetuk \'Mulai ulang dan instal\', perangkat akan dimulai ulang dan menginstal pembaruan.\n\nCatatan: Diperlukan Recovery yang kompatibel agar pemasangan dapat bekerja secara otomatis.</string>
   <string name="not_download_install_notice_ab">Pembaruan<xliff:g id="filename">%s </xliff:g> berhasil diunduh. Ketika menyentuh \'pasang\', perangkat akan mulai memasang di latar belakang.\n\nBegitu selesai, Anda akan diminta untuk mulai ulang.</string>
   <string name="verification_failed">Verifikasi gagal. Unduhan rusak atau tidak aman</string>
+  <string name="update_on_mobile_data_title">Peringatan</string>
+  <string name="ignore_mobile_data_warning">Jangan tampilkan lagi</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Terapkan pembaruan</string>
   <string name="apply_update_dialog_text">Anda akan meningkatkan ke <xliff:g id="filename">%s</xliff:g>.\n\nJika Anda menekan Perbarui, perangkat akan dimulai ulang dalam mode recovery untuk memasang pembaruan.\n\nPerhatian: Fitur ini memerlukan Recovery yang kompatibel, jika tidak pembaruan harus diinstal secara manual.</string>
@@ -69,6 +71,7 @@
   <string name="delete_updates_success_message">Semua pembaruan yang diunduh dihapus</string>
   <!-- Info about blocked updates -->
   <string name="blocked_update_dialog_title">Pembaruan diblokir</string>
+  <string name="blocked_update_dialog_message">Pembaruan ini tidak dapat dipasang menggunakan aplikasi pembaruan.  Silakan baca <![CDATA[<a href="%1$s">]]>; LineageOS wiki <![CDATA[</a>]]>; untuk informasi lebih lanjut.</string>
   <!-- Header -->
   <string name="header_os">LineageOS\n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
